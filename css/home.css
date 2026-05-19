@@ -1,19 +1,42 @@
 body,
 html {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  background-color: #6aaa58;
-  color: #252525;
-  scrollbar-color: #252525 #6aaa58;
-  scrollbar-width: thin;
-  font-family: "helvetica";
-  font-size: 20px;
-  line-height: 1.5;
-  margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #6aaa58;
+    color: #252525;
+    scrollbar-color: #252525 #6aaa58;
+    scrollbar-width: thin;
+    font-family: "helvetica";
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
 }
 
 header {
-  margin-top: 2.5%;
-  margin-bottom: 2.5%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+a:link {
+    text-decoration: none;
+    color: #252525;
+}
+
+a:hover {
+    font-weight: bold;
+    font-style: italic;
+    color: #252525;
+}
+
+a:visited {
+    color: #252525;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 20px;
 }
