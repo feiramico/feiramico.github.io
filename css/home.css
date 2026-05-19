@@ -1,8 +1,9 @@
 body,
 html {
+    margin: 0;
+    display: grid;
+    place-items: center;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
     background-color: #6aaa58;
     color: #252525;
     scrollbar-color: #252525 #6aaa58;
