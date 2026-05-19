@@ -20,12 +20,17 @@ header {
 }
 
 main {
-  padding: 0px 10px;
-  /* sizing for the post itself */
-  max-width: 50%;
-  min-width: 10%;
-  font-size: 14px;
-  margin-bottom: 5%;
+    padding: 0px 10px;
+    /* sizing for the post itself */
+    max-width: 50%;
+    min-width: 10%;
+    font-size: 14px;
+    margin-bottom: 5%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 a:link {
@@ -52,12 +57,22 @@ h2 {
 }
 
 footer {
-  position: relative;
-  font-size: 10px;
-  width: 99%;
-  height: auto;
-  margin-top: auto;
-  bottom: 0;
-  left: 0;
-  right: 0;
+    position: relative;
+    font-size: 10px;
+    width: 99%;
+    height: auto;
+    margin-top: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/*---------------------*/
+
+@media screen and (max-width: 480px) {
+
+    main {
+        max-width: 100%;
+    }
+
 }
