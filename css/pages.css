@@ -13,3 +13,66 @@ html {
     line-height: 1.5;
     margin: 0;
 }
+
+header {
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+main {
+    padding: 0px 10px;
+    /* sizing for the post itself */
+    max-width: 50%;
+    min-width: 10%;
+    font-size: 14px;
+    margin-bottom: 5%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a:link {
+    text-decoration: none;
+    color: #252525;
+}
+
+a:hover {
+    font-weight: bold;
+    font-style: italic;
+    color: #252525;
+}
+
+a:visited {
+    color: #252525;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+footer {
+    position: relative;
+    font-size: 10px;
+    width: 99%;
+    height: auto;
+    margin-top: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/*---------------------*/
+
+@media screen and (max-width: 480px) {
+
+    main {
+        max-width: 100%;
+    }
+
+}
