@@ -4,11 +4,11 @@ html {
   display: flex;
   flex-direction: column;
   background-color: #6aaa58;
-  color: #dedede;
-  scrollbar-color: #dedede #6aaa58;
+  color: #252525;
+  scrollbar-color: #252525 #6aaa58;
   scrollbar-width: thin;
   font-family: "helvetica";
-  font-size: 15px;
+  font-size: 20px;
   line-height: 1.5;
   margin: 0;
 }
