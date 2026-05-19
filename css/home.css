@@ -1,0 +1,19 @@
+body,
+html {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #5ec569;
+  color: #dedede;
+  scrollbar-color: #dedede #5ec569;
+  scrollbar-width: thin;
+  font-family: "helvetica";
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+header {
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
