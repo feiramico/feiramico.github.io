@@ -3,9 +3,9 @@ html {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: #5ec569;
+  background-color: #6aaa58;
   color: #dedede;
-  scrollbar-color: #dedede #5ec569;
+  scrollbar-color: #dedede #6aaa58;
   scrollbar-width: thin;
   font-family: "helvetica";
   font-size: 15px;
