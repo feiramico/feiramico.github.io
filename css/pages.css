@@ -1,0 +1,15 @@
+body,
+html {
+    margin: 0;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    background-color: #6aaa58;
+    color: #252525;
+    scrollbar-color: #252525 #6aaa58;
+    scrollbar-width: thin;
+    font-family: "ms gothic";
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+}
