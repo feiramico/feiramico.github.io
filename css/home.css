@@ -4,9 +4,9 @@ html {
     display: grid;
     place-items: center;
     min-height: 100vh;
-    background-color: #6aaa58;
+    background-color: #55ab3e;
     color: #252525;
-    scrollbar-color: #252525 #6aaa58;
+    scrollbar-color: #252525 #55ab3e;
     scrollbar-width: thin;
     font-family: "ms gothic";
     font-size: 15px;
