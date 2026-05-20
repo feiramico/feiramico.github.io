@@ -11,74 +11,132 @@
 
     <link href="../css/pages.css" rel="stylesheet">
     <style>
-        body {
-            margin: 0;
-            height: 100vh;
+        * {
+            box-sizing: border-box;
+        }
+
+        .layout {
             display: flex;
-            justify-content: center;
-            align-items: center;
-            padding-right: 10%;
+            align-items: flex-start;
+            gap: 5%;
+        }
+
+        nav {
+            flex: 1;
+            overflow: visible;
+            text-align: center;
+        }
+
+        nav img {
+            width: 250%;
+            display: block;
+            margin: 0 auto;
+            max-width: none;
+            margin-left: -50%;
+        }
+
+        nav h1 {
+            margin-top: 2%;
         }
 
         .white-box {
             background-color: #dedede;
             color: #252525;
-            padding: 20px;
-            width: auto;
+            flex: 5;
+            margin: 10% auto;
+            padding: 2.5%;
+            line-height: 1.6;
+            margin: 5%;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        @media (max-width: 480px) {
+            .content {
+                text-align: left;
+            }
+
+            .white-box {
+                padding: 16px;
+            }
         }
     </style>
 </head>
 
 <body>
-    <nav>
-        <a href="https://feiramico.github.io"><img src="../assets/teste.png"></a>
-        <h1><center>𝓶𝓪𝓷𝓲𝓯𝓮𝓼𝓽𝓸</center></h1>
-    </nav>
+    <div class="layout">
+        <nav>
+            <a href="https://feiramico.github.io"><img src="../assets/teste.png"></a>
+            <h1>
+                <center>𝓶𝓪𝓷𝓲𝓯𝓮𝓼𝓽𝓸</center>
+            </h1>
+        </nav>
 
-    <div class="white-box">
-        <p><i>"a feira mico me ensinou coisas que eu nem sabia serem possíveis aprender!"</i> <b>paulo freire</b></p>
-
-        <p><i>"ainda lembro de quando a equipe mico pagou minha fiança quando fui presa política... serei eternamente
-            grata!"</i> <b>chuu do loona</b></p>
-
-        <p><i>"se a feira mico não é a palavra de Deus, então Deus nunca falou."</i> <b>cormac mccarthy</b></p>
-
-        <p><i>"por que minha inscrição na feira mico foi recusada? quem eles pensam que são? quero os nomes e os lattes da
-            banca examinadora agora!"</i> <b>adolf hitler</b></p>
-        <br>
-        <center>
-             <p>a feira mico (ou apenas "Mico" para os íntimos) é a feira de impressos independentes do instituto de
-                artes da
-                unesp.</p>
-            <p>desde 2024 buscamos recuperar uma caminhada que a feira kraft começou lá em 2015, como um evento para
-                a
-                comunidade de artistas, coletivos ou editoras interessadas em zines, design, cartazes, revistas, livros,
-                histórias em quadrinhos e arte impressa no geral. durante a pandemia do covid-19, a saudade de
-                participar e
-                visitar essas feiras era imensa: imersos em interações estritamente digitais, estávamos sedentos por
-                materialidade e por poder ver a materialidade dos outros, sem necessidade de nos encolhermos para caber
-                em
-                ambientes digitais que, idealmente abertos, passam a se hierarquizar e a se fechar em bolhas, mundos
-                digitais
-                dominados por algoritmos que nos falam o que comer, o que vestir o que é bonito.</p>
-            <p>buscamos existir fora dessa palhaçada, carregando o questionamento de como construir uma prática
-                artística
-                que
-                não reforce a lógica produtivista do trabalho, mas que reencante o gesto do fazer, mergulhando numa
-                experiência
-                de tempo expandido, de presença e construção/processo em contraste com a urgência que atravessa o mundo
-                contemporâneo. nos interessamos especialmente no gesto que escapa do certo, do errado, do que comer, do
-                que
-                vestir, da paleta de cor, da curadoria de plantas, cachorros ou personalidades do momento; queremos o
-                diferente,
-                transbordar, ocupar rachaduras, sair da poesia e existir no mundo real, o mundo deles, fazer a linguagem
-                tremer,
-                um arrepio que vêm da espinha e leva os olhos condutores de sentido e possibilidades para além do papel.
+        <div class="white-box">
+            <p><i>"a feira mico me ensinou coisas que eu nem sabia serem possíveis aprender!"</i> <b>paulo freire</b>
             </p>
-            <p>foda-se as linhas que delimitam onde o texto deve estar ou seus quadrados cortados no centro perpassando
-                por
-                suas
-                extremidades eliminando os limites das imagens. é tudo de mentira.</p>
-        </center>
+
+            <p><i>"ainda lembro de quando a equipe mico pagou minha fiança quando fui presa política... serei
+                    eternamente
+                    grata!"</i> <b>chuu do loona</b></p>
+
+            <p><i>"se a feira mico não é a palavra de Deus, então Deus nunca falou."</i> <b>cormac mccarthy</b></p>
+
+            <p><i>"por que minha inscrição na feira mico foi recusada? quem eles pensam que são? quero os nomes e os
+                    lattes
+                    da
+                    banca examinadora agora!"</i> <b>adolf hitler</b></p>
+            <br>
+            <center>
+                <p>***************</p>
+            </center>
+            <br>
+            <div class="content">
+                <p>a feira mico (ou apenas "Mico" para os íntimos) é a feira de impressos independentes do instituto de
+                    artes da
+                    unesp.</p>
+                <p>desde 2024 buscamos recuperar uma caminhada que a feira kraft começou lá em 2015, como um evento para
+                    a
+                    comunidade de artistas, coletivos ou editoras interessadas em zines, design, cartazes, revistas,
+                    livros,
+                    histórias em quadrinhos e arte impressa no geral. durante a pandemia do covid-19, a saudade de
+                    participar e
+                    visitar essas feiras era imensa: imersos em interações estritamente digitais, estávamos sedentos por
+                    materialidade e por poder ver a materialidade dos outros, sem necessidade de nos encolhermos para
+                    caber
+                    em
+                    ambientes digitais que, idealmente abertos, passam a se hierarquizar e a se fechar em bolhas, mundos
+                    digitais
+                    dominados por algoritmos que nos falam o que comer, o que vestir o que é bonito.</p>
+                <p>buscamos existir fora dessa palhaçada, carregando o questionamento de como construir uma prática
+                    artística
+                    que
+                    não reforce a lógica produtivista do trabalho, mas que reencante o gesto do fazer, mergulhando numa
+                    experiência
+                    de tempo expandido, de presença e construção/processo em contraste com a urgência que atravessa o
+                    mundo
+                    contemporâneo. nos interessamos especialmente no gesto que escapa do certo, do errado, do que comer,
+                    do
+                    que
+                    vestir, da paleta de cor, da curadoria de plantas, cachorros ou personalidades do momento; queremos
+                    o
+                    diferente,
+                    transbordar, ocupar rachaduras, sair da poesia e existir no mundo real, o mundo deles, fazer a
+                    linguagem
+                    tremer,
+                    um arrepio que vêm da espinha e leva os olhos condutores de sentido e possibilidades para além do
+                    papel.
+                </p>
+                <p>foda-se as linhas que delimitam onde o texto deve estar ou seus quadrados cortados no centro
+                    perpassando
+                    por
+                    suas
+                    extremidades eliminando os limites das imagens. é tudo de mentira.</p>
+            </div>
+        </div>
     </div>
 </body>
