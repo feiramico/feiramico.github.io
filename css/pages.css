@@ -6,8 +6,7 @@ html {
     scrollbar-color: #252525 #55ab3e;
     scrollbar-width: thin;
     font-family: "ms gothic";
-    font-size: 15px;
-    line-height: 1.5;
+    font-size: 16px;
     margin: 0;
 }
 
@@ -52,7 +51,7 @@ nav a {
     /* space between links */
     padding: 6px 16px 6px 16px;
     font-size: 14px;
-    color: #c0c0c0;
+    color: #252525;
     display: block;
 }
 
@@ -103,7 +102,7 @@ a:visited {
 }
 
 h1 {
-    font-size: 25px;
+    font-size: 30px;
 }
 
 h2 {
