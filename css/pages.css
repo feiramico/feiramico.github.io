@@ -41,14 +41,14 @@ header {
 }
 
 nav {
-    color: #c0c0c0;
     font-weight: bold;
     position: sticky;
     top: 10%;
-    width: 140px;
+    width: 20%;
     flex-shrink: 0;
-    border-right: 1px solid #a7a7a7;
     padding-top: 0;
+    padding-left: 5%;
+    padding-right: 5%;
     /* remove unnecessary padding */
     margin-top: 0;
 }
