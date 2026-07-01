@@ -115,8 +115,9 @@ h2 {
 
 footer {
     position: relative;
+    text-align: center;
     font-size: 10px;
-    width: 99%;
+    width: 100%;
     height: auto;
     margin-top: auto;
     bottom: 0;
