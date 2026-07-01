@@ -8,15 +8,60 @@ html {
     color: #252525;
     scrollbar-color: #252525 #6aaa58;
     scrollbar-width: thin;
-    font-family: "ms gothic";
-    font-size: 15px;
+    font-family: "helvetica";
+    font-size: 16px;
     line-height: 1.5;
     margin: 0;
 }
 
+.layout {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+nav {
+    color: black;
+    font-weight: bold;
+    position: sticky;
+    top: 2%;
+    width: 140px;
+    flex-shrink: 0;
+    border-right: 1px solid black;
+    padding-top: 0;
+    /* remove unnecessary padding */
+    margin-top: 0;
+}
+
+.entry {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.entry::before {
+    content: "";
+    margin-right: 5px;
+}
+
+.entry.selected::before {
+    content: ">";
+}
+
+.entry-content {
+    display: none;
+}
+
+.entry-content.show {
+    display: block;
+}
+
+
 header {
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 main {
