@@ -1,9 +1,9 @@
 body,
 html {
     min-height: 100vh;
-    background-color: #55ab3e;
+    background-color: #6aaa58;
     color: #252525;
-    scrollbar-color: #252525 #55ab3e;
+    scrollbar-color: #252525 #6aaa58;
     scrollbar-width: thin;
     font-family: "ms gothic";
     font-size: 16px;
@@ -83,7 +83,7 @@ main {
 }
 
 p {
-  margin-bottom: 5px;
+    margin-bottom: 5px;
 }
 
 img {
