@@ -1,9 +1,6 @@
 body,
 html {
     margin: 0;
-    display: grid;
-    place-items: center;
-    min-height: 100vh;
     background-color: #6aaa58;
     color: black;
     scrollbar-color: black #6aaa58;
@@ -43,13 +40,16 @@ html {
     gap: 5px;
     background: #6aaa58;
     border-bottom: 1px solid black;
-    z-index: 9999;
+    z-index: 1000;
 }
 
 .entry {
     cursor: pointer;
     font-weight: normal;
-    transition: .2s;
+    background:none;
+    border:none;
+    font:inherit;
+    color:inherit;
 }
 
 .entry.selected {
@@ -71,9 +71,18 @@ header {
     margin-bottom: 5%;
 }
 
+header img {
+
+    width: min(90%, 720px);
+    height: auto;
+
+}
+
 main {
-    flex: 1;
-    min-width: 0;
+    max-width: 850px;
+    margin: 60px auto;
+    padding: 0 25px;
+
 }
 
 img {
@@ -105,15 +114,9 @@ h2 {
 }
 
 footer {
-    position: relative;
     text-align: center;
     font-size: 10px;
-    width: 100%;
-    height: auto;
-    margin-top: auto;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    padding: 50px 0 20px;
 }
 
 /*---------------------*/
