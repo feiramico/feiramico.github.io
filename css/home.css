@@ -31,10 +31,10 @@ html {
 .entry {
     cursor: pointer;
     font-weight: normal;
-    background:none;
-    border:none;
-    font:inherit;
-    color:inherit;
+    background: none;
+    border: none;
+    font: inherit;
+    color: inherit;
 }
 
 .entry.selected {
@@ -98,13 +98,13 @@ h2 {
 }
 
 ::-moz-selection {
-  color: black;
-  background:#8ed157;
+    color: black;
+    background: #8ed157;
 }
 
 ::selection {
-  color: black;
-  background:#8ed157;
+    color: black;
+    background: #8ed157;
 }
 
 footer {
@@ -122,7 +122,7 @@ footer {
     }
 
     .navbar {
-    font-size: 6vw;
-}
+        font-size: 6vw;
+    }
 
 }
