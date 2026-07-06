@@ -53,7 +53,6 @@ html {
 .entry:not(:last-child)::after {
     content: " /";
     font-weight: normal;
-    margin-left: .4em;
 }
 
 header {
@@ -129,7 +128,6 @@ footer {
     .entry:not(:last-child)::after {
         content: " /";
         font-weight: normal;
-        margin-left: .4em;
     }
 
 
