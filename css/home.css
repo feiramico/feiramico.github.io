@@ -97,6 +97,16 @@ h2 {
     font-size: 20px;
 }
 
+::-moz-selection {
+  color: black;
+  background:#8ed157;
+}
+
+::selection {
+  color: black;
+  background:#8ed157;
+}
+
 footer {
     text-align: center;
     font-size: 10px;
