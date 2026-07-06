@@ -19,7 +19,7 @@ html {
     height: 55px;
     display: flex;
     font-family: "roboto";
-    font-size: 25px;
+    font-size: 2vw;
     justify-content: center;
     align-items: center;
     gap: 5px;
@@ -110,5 +110,9 @@ footer {
     main {
         max-width: 100%;
     }
+
+    .navbar {
+    font-size: 6vw;
+}
 
 }
