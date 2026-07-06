@@ -18,7 +18,7 @@ html {
     width: 100%;
     height: clamp(45px, 6vw, 55px);
     display: flex;
-    font-family: "roboto", sans-serif;
+    font-family: "roboto";
     font-size: clamp(18px, 3vw, 40px);
     justify-content: center;
     align-items: center;
@@ -125,5 +125,12 @@ footer {
     main {
         max-width: 100%;
     }
+
+    .entry:not(:last-child)::after {
+        content: " /";
+        font-weight: normal;
+        margin-left: .4em;
+    }
+
 
 }
