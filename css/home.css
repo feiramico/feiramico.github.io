@@ -19,7 +19,7 @@ html {
     height: 55px;
     display: flex;
     font-family: "roboto";
-    font-size: clamp(20px, 2vw + 10px, 50px);
+    font-size: 2vw;
     justify-content: center;
     align-items: center;
     gap: 1px;
