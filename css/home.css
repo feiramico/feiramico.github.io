@@ -142,11 +142,4 @@ footer {
     main {
         max-width: 100%;
     }
-
-    .entry:not(:last-child)::after {
-        content: " /";
-        font-weight: normal;
-    }
-
-
 }
