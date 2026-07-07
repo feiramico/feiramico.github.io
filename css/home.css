@@ -48,6 +48,10 @@ html {
     color: inherit;
     font: inherit;
     cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    font-style: inherit;
 }
 
 .entry.selected {
