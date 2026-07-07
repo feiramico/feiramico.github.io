@@ -22,7 +22,7 @@ html {
     padding: .6rem 1rem;
     background: #6aaa58;
     border-bottom: 1px solid black;
-    font-family: "Roboto", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
     font-size: clamp(18px, 5vw, 30px);
     overflow-x: auto;
     overflow-y: hidden;
@@ -50,12 +50,16 @@ html {
     cursor: pointer;
     font-family: inherit;
     font-size: inherit;
-    font-weight: inherit;
+    font-weight: 400;
     font-style: inherit;
 }
 
+.entry:hover {
+    font-weight: 500;
+}
+
 .entry.selected {
-    font-weight: bold;
+    font-weight: 700;
     font-style: italic;
 }
 
