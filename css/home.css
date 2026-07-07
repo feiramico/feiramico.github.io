@@ -23,7 +23,7 @@ html {
     background: #6aaa58;
     border-bottom: 1px solid black;
     font-family: "Roboto", sans-serif;
-    font-size: clamp(1.1rem, 3w, 2rem);
+    font-size: 2rem;
     overflow-x: auto;
     overflow-y: hidden;
     white-space: nowrap;
@@ -141,5 +141,9 @@ footer {
 
     main {
         max-width: 100%;
+    }
+
+    .navbar {
+        font-size: 1.15rem;
     }
 }
