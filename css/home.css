@@ -100,6 +100,18 @@ img {
     height: auto;
 }
 
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 a:link {
     text-decoration: none;
     color: #252525;
@@ -145,5 +157,9 @@ footer {
 
     main {
         max-width: 100%;
+    }
+
+    .column {
+        width: 100%;
     }
 }
