@@ -123,17 +123,17 @@ img {
 
 a:link {
     text-decoration: none;
-    color: #252525;
+    color: black;
 }
 
 a:hover {
     font-weight: bold;
     font-style: italic;
-    color: #252525;
+    color: black;
 }
 
 a:visited {
-    color: #252525;
+    color: black;
 }
 
 h1 {
