@@ -15,25 +15,28 @@ html {
     position: sticky;
     top: 0;
     z-index: 1000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    padding: .6rem 1rem;
-    background: #6aaa58;
-    border-bottom: 1px solid black;
-    font-family: "Roboto", sans-serif;
-    font-size: clamp(18px, 5vw, 30px);
     overflow-x: auto;
     overflow-y: hidden;
-    white-space: nowrap;
+    background: #6aaa58;
+    border-bottom: 1px solid black;
     scrollbar-width: none;
-    box-sizing: border-box;
-    gap: .4em;
+    -ms-overflow-style: none;
 }
 
 .navbar::-webkit-scrollbar {
     display: none;
+}
+
+.navbar-content {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: max-content;
+    padding: .6rem 1rem;
+    margin: 0 auto;
+    gap: .4em;
+    font-family: "roboto";
+    font-size: clamp(18px, 4vw, 30px);
 }
 
 .entry {
