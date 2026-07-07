@@ -14,21 +14,22 @@ html {
 .navbar {
     position: sticky;
     top: 0;
-    left: 0;
-    width: 100%;
-    height: clamp(45px, 6vw, 55px);
     display: flex;
-    font-family: "roboto";
-    font-size: clamp(18px, 3vw, 40px);
     justify-content: center;
     align-items: center;
-    gap: 1px;
+    flex-wrap: nowrap;
+    gap: .35em;
+    width: 100%;
+    font-family: "roboto";
+    font-size: clamp(16px, 3vw, 40px);
     background: #6aaa58;
     border-bottom: 1px solid black;
-    z-index: 1000;
+    box-sizing: border-box;
 }
 
 .entry {
+    flex: 0 0 auto;
+    white-space: nowrap;
     cursor: pointer;
     font-weight: normal;
     background: none;
@@ -50,9 +51,8 @@ html {
     display: block;
 }
 
-.entry:not(:last-child)::after {
-    content: " /";
-    font-weight: normal;
+.separator {
+    user-select: none;
 }
 
 header {
