@@ -14,28 +14,58 @@ html {
 .navbar {
     position: sticky;
     top: 0;
+    z-index: 1000;
+
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: nowrap;
-    gap: .35em;
+
     width: 100%;
-    font-family: "roboto";
-    font-size: clamp(16px, 3vw, 40px);
+    padding: .6rem 1rem;
+
     background: #6aaa58;
     border-bottom: 1px solid black;
+
+    font-family: "Roboto", sans-serif;
+    font-size: clamp(14px, 2.8vw, 32px);
+
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+
+    scrollbar-width: none;
     box-sizing: border-box;
+    gap: .4em;
+
+}
+
+.navbar::-webkit-scrollbar {
+    display: none;
 }
 
 .entry {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
     flex: 0 0 auto;
-    white-space: nowrap;
-    cursor: pointer;
-    font-weight: normal;
+
+    padding: 0;
+    margin: 0;
+
     background: none;
-    border: none;
-    font: inherit;
+    border: 0;
+
     color: inherit;
+    font: inherit;
+    cursor: pointer;
+}
+
+.entry:not(:last-child)::after {
+    content: "/";
+    margin-left: .4em;
+    font-weight: normal;
+    font-style: normal;
 }
 
 .entry.selected {
