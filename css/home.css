@@ -50,13 +50,6 @@ html {
     cursor: pointer;
 }
 
-.entry:not(:last-child)::after {
-    content: "/";
-    margin-left: .4em;
-    font-weight: normal;
-    font-style: normal;
-}
-
 .entry.selected {
     font-weight: bold;
     font-style: italic;
