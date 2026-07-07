@@ -21,6 +21,7 @@ html {
     border-bottom: 1px solid black;
     scrollbar-width: none;
     -ms-overflow-style: none;
+    justify-content: space-evenly;
 }
 
 .navbar::-webkit-scrollbar {
@@ -30,11 +31,9 @@ html {
 .navbar-content {
     display: inline-flex;
     align-items: center;
-    justify-content: center;
     min-width: max-content;
     padding: .6rem 1rem;
     margin: 0 auto;
-    gap: .4em;
     font-family: "roboto";
     font-size: clamp(18px, 4vw, 30px);
 }
@@ -43,7 +42,7 @@ html {
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
-    flex: 0 0 auto;
+    flex: 0 1 auto;
     padding: 0;
     margin: 0;
     background: none;
@@ -55,6 +54,7 @@ html {
     font-size: inherit;
     font-weight: inherit;
     font-style: inherit;
+    white-space: nowrap;
 }
 
 .entry.selected {
