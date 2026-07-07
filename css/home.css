@@ -84,7 +84,7 @@ header {
 }
 
 header img {
-    width: min(50%, 1080px);
+    width: min(90%, 1080px);
     height: auto;
 }
 
